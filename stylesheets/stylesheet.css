@@ -52,9 +52,9 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -356,6 +356,7 @@ Full-Width Styles
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
+  min-height: 600px
 }
 
 #main_content {
@@ -366,7 +367,22 @@ Full-Width Styles
   background: #212121;
 }
 
+dl p {
+  font-style: normal;
+}
 
+.btn {
+  color: #FFF;
+  font-weight: bold;
+  display: inline-block;
+  padding: 3px 5px;
+  background-color: rgb(65, 178, 224);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
 
 /*******************************************************************************
 Small Device Styles
